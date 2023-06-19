@@ -21,8 +21,8 @@ describe('checkIn use case', () => {
       title: 'test',
       description: '',
       phone: '',
-      latitude: new Decimal(-27.6434716),
-      longitude: new Decimal(-48.6755659),
+      latitude: -27.6434716,
+      longitude: -48.6755659,
     })
 
     vi.useFakeTimers()
