@@ -20,6 +20,6 @@ describe('profile (e2e)', () => {
       .send()
 
     expect(profileResponse.statusCode).toEqual(200)
-    expect(profileResponse.body.email).toEqual('efpyi2@example.com')
+    expect(profileResponse.body.email).toEqual('johndoe@example.com')
   })
 })
